@@ -3,6 +3,230 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
+
+/*lembrar de deletar img*/
+
+
+
+body{
+    background-color: #F7F7F7;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: #6D9886;
+}
+
+/* Transicao*/
+a, 
+.btn{
+    transition: all 300ms ease;
+}
+
+
+/*Navegaçao*/
+
+
+nav, .nav_links{
+    display: flex;
+    
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav_links{
+    list-style: none;
+    font-size: 1.5rem;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: white;
+    color: #393E46;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+
+}
+
+.logo{
+    font-size: 2rem;
+    color: #393E46;
+}
+
+
+/*Sections*/
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+/* perfil*/
+
+.texto_perfil{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+#perfil{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.titulo_perfil{
+    font-size: 2.5rem;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    color: #393E46;
+}
+
+
+
+.img_perfil{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.paragrafo_perfil{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+.btn_container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn_download:hover{
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.icon{
+    height: 2rem;
+    cursor: pointer;
+  }
+
+
+
+
+
+/* Sobre*/
+
+.sobre_container{
+    display: flex;
+    gap: 4rem;
+    height: 80%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.titulo_sessao{
+    color: #393E46;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    
+}
+
+.visual_sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pic_about{
+    border-radius: 2rem;
+    height: 400px;
+    
+    margin: auto 0;
+}
+.icones_sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.texto_exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.3rem;
+}
+
+#experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.experiencia_textos_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.experiencia_stacks_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
