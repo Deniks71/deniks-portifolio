@@ -142,7 +142,17 @@ section{
 .icon{
     height: 2rem;
     cursor: pointer;
-  }
+}
+
+.github_icon{
+    height: 2.4rem;
+}
+
+.icon_exp{
+    cursor: default;
+}
+
+
 
 
 
